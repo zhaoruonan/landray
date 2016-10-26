@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+#xuanzong{ color:#0081cc;width:75px;}
+#xuanzong_tow{ color:#0081cc;}
+#daohang{ width:75px;}
+/*导行下面的线*/
+.top_daohang{ width:100%; margin:10px auto 0px;border-bottom: solid 1px #eaeaea;} 
+/*头部LOGO加导行信息*/
+.index_top_daohang{ width:1000px; height:60px;  margin:0px auto; padding-top:20px;}
+.index_top_daohang_logo{ width:143px; height:43px; float:left;}
+.index_top_daohang_logo img{ width:100%; height:100%;} 
+.index_daohang{ float:right;}
+.index_daohang  ul  li{ float:left; width:105px; text-align:center;list-style:none;color:#222222;line-height:50px;font-size:16px;}
+.index_daohang  ul  a li:hover{color:#0081cc;}
+
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+
+/*滚动大图*/
+.flexslider{width:1000px;margin:0px auto; height:527px; margin-top:105px;}
+.flexslider ul li{ list-style:none;}
+/*right 箭头*/
+.flex-direction-nav .flex-next{width:60px;height:85px;line-height:99em;display:block;background:url(../imgs/IOCD/right.png) no-repeat;position:absolute;top:50%;z-index:10; left:96%;line-height:99em;overflow:hidden; list-style:none; list-style:none;}
+/*left 箭头*/
+.flex-direction-nav a{width:60px;height:85px;line-height:99em;display:block;background:url(../imgs/IOCD/left.png) no-repeat;position:absolute;top:50%;z-index:10;left:27px;line-height:99em;overflow:hidden; list-style:inside;}
+.flex-control-paging{ width:190px; margin:0px auto; margin-top:93px;}
+.flex-control-paging li{float:left; list-style:none; margin:0px 7px;}
+.flex-control-paging li a{background:url(../imgs/IOCD/dot.png) no-repeat 0 -16px;display:block;height:16px;overflow:hidden;text-indent:-99em;width:16px;cursor:pointer;}
+.flex-control-paging li a.flex-active{background-position:0 0;}
+
+
+
+/*butom 信息*/
+.buttom_back{background-color:#f0f0f0; width:100%; margin-top:460px; padding-bottom:20px; clear:both;}
+.buttom_tuttom{ width:1020px; margin:0px auto;  height:200px; }
+.buttom_left{ width:750px; float:left; margin:0px auto; padding-top:25px;}
+.buttom_left ul{padding:5px 0px; text-align:center; display:block }
+.buttom_left ul a,li{color:#666666;text-decoration:none;font-size:14px; line-height:22px; }
+.buttom_left span{color:#666666;text-decoration:none;font-size:14px; line-height:30px; }
+
+.buttom_left ul a li:hover{color:#393939; text-decoration:underline;}
+.buttom_left ul li{ list-style:none; float:left;  }
+.text_style li{ width:50px;}
+
+.buttom_right{ position:relative; top:25px;}
+.buttom_right ul li{ float:right; width:130px; list-style:none;}

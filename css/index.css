@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+.anli{ width:1000px; margin:10px auto 0px; padding-top:50px;}
+.anli_img{width:279px;  margin:0px auto;}
+.anli_img img{ float:right;}
+.anli_wz{text-align:right; width:200px;  position:relative; right:-800px; top:-490px;  height:20px;}
+.anli_wz a{ color:#0081cc; text-decoration:none;}
+.anli_wz a:hover{ color:#0081cc; text-decoration:underline;}
+
+
+/*center 效果*/
+.anli_imgS { width:1000px; margin:0px auto; padding-top:120px;}
+.anli_imgS ul{ margin-left:-20px; padding:0px;}
+.anli_imgS ul li{list-style:none;}
+#center1{ margin-left:20px;}
+#center2{ margin-left:365px;}
+#center3{ margin-left:713px;}
+.main_box{	background: red;	/* Important parameters of style start */	position: relative;	overflow: hidden;	float: left;	/* Important parameters of style end */	margin-right: 10px;	margin-bottom: 10px;}
+.main_box > img{	display: block;	z-index: 10;}
+.main_box > a{	text-decoration: none;}
+/* Text Content */
+
+.overlayText{	/* Important parameters of style start */	position: absolute;	overflow: hidden;	display: none;	z-index: 20;	margin: 0;	/* Important parameters of style end */	background: #0081cc;	color: white;}
+
+.overlayRubBottom{	/* Important parameters of style start */	position: absolute;	overflow: hidden;	z-index: 20;	margin: 0;	border: 0 none;	/* Important parameters of style end */		background: #000;}
+
+.textBox{	/* Important parameters of style start */	position: absolute;	float: left;	z-index: 30;	margin: 0;	padding: 0;	/* Important parameters of style end */}
+
+.textTitle {	/* Important parameters of style start */	position: absolute;	float: left;	z-index: 30;	margin: 0;	/* Important parameters of style end */		margin-left: 10px;	padding: 5px;font-weight: bold;}
+.user_style5 .textTitle{	color:#FFF;	font-size: 18px;	margin-top: 80px;	padding-left: 70px;	padding-right: 20px;}
+.user_style5 .textBox {	background: rgb(63,31,65);	background: rgba(63,31,65, 0.7);	color: #d9c3db;	margin-bottom: 30px;	font-size: 14px;	opacity: 0.8;}
+.user_style5 a{	color: #f5e7f6;}
+
+.index_banner_center_img{width:1000px; margin:0px auto; display:block; position:relative; top:40px; height:432px; clear:both;}
+
+
+
+
+.xuanzhi{margin:55px auto; width:1000px; padding-top:20px; text-align:center; clear:both; min-height:20px; height:50%;}
+.xuanzhi ul li{width:44%; float:left;  margin:60px 3% 0px 3%; min-height:30px;}
+.xuanzhi dl dt{ height:80px;}
+.xuanzhi dl dt img{ width:80px; height:80px; text-align:center;}
+.xuanzhi dl dd{ min-height:20px; font-size:24px; margin:30px 0px;}
+.xuanzhi dl dd b{font-size:14px; text-align:left;}
+
+
+
+
+
+
+
+
+
+.bott{ width:1000px; margin:0px auto; padding-top:50px; text-align:left;}
+.bott_left{ width:500px; float:left; margin-top:60px;text-align:left;}
+.bott_left_h2{ width:500px;}
+.bott_left_h2 b { width:300px;font-weight:100; text-align:center; float:left; }
+.bott_left_h2 b img{ margin-top:20px; }
+.bott_left_h2  a{ line-height:80px; color:#0081cc; text-decoration:none; margin-left:100px;}
+.bott_left_h2  a:hover{text-decoration:underline;}
+.bott_left_text{width:500px; clear:both;}
+.bott_left_text ul{ margin:0px; padding:0px; text-align:left;}
+.bott_left_text ul a li { list-style:square; color:#666666; line-height:30px; text-decoration:none;text-align:left;}
+.bott_left_text ul a li:hover{color:#393939; text-decoration:underline;}
+
+.bott_right{width:490px; float:right;border-left:solid 1px #bababa; margin-top:55px;}
+.bott_right_h2{ width:500px;}
+.bott_right_h2 b{ width:500px;font-weight:100; text-align:center; float:left;margin-top:20px;}
+.bott_right_h2 b img{ margin-top:5px;}
+
+
+.bott_right_input ul  { list-style:square; color:#666666; line-height:30px; text-decoration:none;width:100%; margin-left:70px; top:30px; position:relative;}
+.bott_right_input ul li{color:#393939; text-decoration:underline;list-style:none; float:left;}
+.bott_right_input ul li img{ margin-left:330px;margin-top:10px;}
+
+

@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+/*滚动大图*/
+
+.flexslider{width:100%;margin:0px auto; height:464px;overflow:hidden;zoom:1; position:relative; }
+.flex-viewport{max-height:2000px;-webkit-transition:all 1s ease;-moz-transition:all 1s ease;transition:all 1s ease;}
+.flexslider .slides{zoom:1;}
+
+.flexslider ul li{ list-style:none;}
+
+/*left 箭头*/
+.flex-direction-nav a{width:60px;height:85px;line-height:99em;display:block;background:url(../imgs/IOCD/left.png) no-repeat;position:absolute;top:39%;z-index:10;margin-left:22px;line-height:99em;overflow:hidden; list-style:inside;}
+/*right 箭头*/
+.flex-direction-nav .flex-next{width:60px;height:85px;line-height:99em;display:block;background:url(../imgs/IOCD/right.png) no-repeat;position:absolute;top:39%;z-index:10; left:96%;line-height:99em;overflow:hidden; list-style:none; list-style:none;}
+
+
+.flex-direction-nav .flex-prev{left:0;}
+.flexslider:hover .flex-next{opacity:0.8;filter:alpha(opacity=25);}
+.flexslider:hover .flex-prev{opacity:0.8;filter:alpha(opacity=25);}
+
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover{opacity:1;filter:alpha(opacity=50);}
+
+.flex-control-nav{width:100%;position:absolute;bottom:10px;text-align:center;}
+.flex-control-nav li{margin:0 5px;display:inline-block;zoom:1;*display:inline;}
+
+.flex-control-paging{ width:250px; margin:-30px auto; position:relative;}
+.flex-control-paging li{float:left; list-style:none; margin:0px 7px;}
+.flex-control-paging li a{background:url(../imgs/IOCD/dot.png) no-repeat 0 -16px;display:block;height:16px;overflow:hidden;text-indent:-99em;width:16px;cursor:pointer;}
+.flex-control-paging li a.flex-active{background-position:0 0;}
+
+
+
+
+.package_banner_no{ width:1000px; margin:50px auto;}
+.package_banner_no img{ width:1000px;}
+.package_dl{ width:1000px; margin:20px auto; position:relative; bottom:50px;}
+.package_dl dl{float:left; width:320px;  border: solid 1px #ececec; margin:60px 5px 0px 5px;color:#737373; font-size:14px;}
+.package_dl dl img{ width:100%;}
+.package_dl dl h3{ color:#022222; margin-bottom:10px; font-size:18px; margin-top:-30px;}
+.package_dl dl dd{ padding:40px 5px; line-height:23px;}
+

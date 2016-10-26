@@ -1,0 +1,51 @@
+.jpage-relative{position: relative;}
+
+.jpage-abs{	position: absolute;}
+
+.jpage-panel{margin-bottom: 15px; margin-top:80px; height:50px; width:800px; margin:0px auto;}
+
+.list{ margin:15px 0px; color:#666666; font-size:14px;}
+.list-item{ margin:30px 0px 0px 0px; color:#333333; font-size:14px;line-height:30px; height:150px; }
+.list-item h2{ font-size:18px; list-style:decimal; }
+
+
+.zuixin_left{ float:left; line-height:20px; width:80px; margin-right:10px; margin-left:50px;}
+.zuixin_left span{ font-size:36px; color:#0081cc;}
+.zuixin_right{float:right; width:720px; margin-top:-10px;}
+.zuixin_right h2{ font-weight:bold;}
+.zuixin_right dl{ margin-top:0px;}
+.zuixin_right dl dd{ margin-top:10px;}
+.zuixin_right span a:hover{ text-decoration:underline;}
+
+.jpage-pagination{	list-style: none;	margin-left:20%;	margin-right:20%; margin-top:50px;}
+
+.jpage-pagination li{ width:15px; height:30px; float: left;	background: #fff;	border: 1px solid #E3E3E3;	border-radius: 2px;	padding: 0 10px;	margin:0px 10px;     color: #737373;	cursor: pointer; text-align:center; line-height:30px;}
+
+.jpage-pagination li:hover{	border: 1px solid #0081cc;	outline: 1px solid #fff;}
+
+.jpage-pagination .active,.jpage-pagination .active:hover{	border: 1px solid #0081cc;	color: #ffffff;	background: #0081cc;}
+
+
+
+
+
+
+.research_depth{ margin-left:130px;}
+.research_depth dl dt { float:left; margin-right:10px;}
+.research_depth dl dd { line-height:25px; color:#737373; font-size:14px;  }
+.research_depth dl dd h3{ font-size:20px; color:#222222;}
+
+.line3 {
+	display:block;
+    border-width: 0px 0px 1px;
+    border-style: none none dashed;
+    border-color:#0081cc;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    margin:0px;
+    width: 650px;
+}
+.list-item_off{ margin:30px 0px 30px 0px; color:#333333; font-size:14px;line-height:30px; height:150px; }

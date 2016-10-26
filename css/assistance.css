@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+.apply_center_buttom{ width:1000px; margin:30px auto;}
+.apply_center_left{ width:110px; float:left; font-size:20px; height:500px; margin-left:30px;}
+.apply_center_left ul li{padding-left:10px; margin:20px 0px; line-height:20px;  font-size:18px;}
+
+
+.apply_center_left a li:hover{color:#0081cc;margin-left:10px;list-style-image:url(../imgs/IOCD/list.png);}
+.submit_table{ float:right; width:860px;margin-top:-20px;}
+#in1{color:#0081cc;margin-left:10px;list-style-image:url(../imgs/IOCD/list.png);}
+
+
+/*资质荣誉*/
+.main{ width:800px; margin:10px auto; padding-left:270px; padding-bottom:350px;}
+.aptitudes_top_img  ul li{ float:left; list-style:none; width:220px; height:150px; border:solid 1px #eaeaea; margin:20px 12px 35px;}
+.aptitudes_top_img  ul li img{  width:210px; height:140px; margin:5px; }
+.aptitudes_top_img  ul li p{ width:220px; text-align:center; margin-top:10px; font-size:18px; color:#222222;}
+
+
+
+/*加入蓝凌*/
+.defaults{ height:900px; margin-left:270px; position:relative; top:19px;}
+.defaults h2 {font-style:normal; color:#0081cc; margin-top:45px;font-size:20px;}
+.defaults h4{font-style:normal;font-size:14px; margin:10px 0px;}
+.defaults ul { margin:0px; padding:0px; font-size:14px; color:#737373; margin-left:15px;}
+.defaults ul li ul li{ list-style:decimal; line-height:30px;}
+
+.holder { margin: 15px 200px;width:1000px; margin-top:80px; font-family:微软雅黑;}
+.holder a {    display:block;	width:36px;	height:36px;    text-align:center;    line-height:36px;    font-size: 12px;    cursor: pointer;    margin: 0 5px;    color: #333;	border:solid 1px #cccccc;	float:left;  }
+.holder a:hover {    background-color: #0081cc;    color:#ffffff;  }
+.holder a.jp-previous { margin-right: 15px; }
+.holder a.jp-next { margin-left: 15px; }
+.holder a.jp-current, a.jp-current:hover {    color: #ffffff    font-weight: bold;  }
+.holder a.jp-current, a.jp-current:hover {cursor: default;    color: #ffffff;    font-weight: bold;	border: solid 1px #0081cc;	background-color: #0081cc;	}
+
+
+.holder span { margin: 0 5px; }
+  .line2 {
+	display:block;
+    border-width: 0px 0px 1px;
+    border-style: none none dashed;
+    border-color:#0081cc;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+	margin-top:-20px;
+	margin-bottom:80px;
+    width: 600px;
+}
+
+
+
+
+
+
+
+
+
+
